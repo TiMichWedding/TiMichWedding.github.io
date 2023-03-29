@@ -38,7 +38,7 @@
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.heading-add-to-our-story {
+.heading-remote {
   background-position: 0 -540px;
   height: 78px;
   width: 637px;
@@ -1127,26 +1127,35 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 /* line 784, ../sass/screen.scss */
-#add-to-our-story {
+#remote {
   height: 768px;
 }
+
+#remote p {
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+
 /* line 787, ../sass/screen.scss */
-#add-to-our-story .heading-love-small {
+#remote .heading-love-small {
   display: inline-block;
   text-indent: -9999px;
 }
 /* line 791, ../sass/screen.scss */
-.ie7 #add-to-our-story .heading-love-small {
+.ie7 #remote .heading-love-small {
   display: block;
   margin-left: 45%;
 }
 /* line 797, ../sass/screen.scss */
-#add-to-our-story .sig {
+#remote .sig {
   margin-top: 0;
   margin-bottom: 0;
 }
 /* line 802, ../sass/screen.scss */
-#add-to-our-story .tagline {
+#remote .tagline {
   position: absolute;
   bottom: 10px;
   width: 100%;
@@ -1162,17 +1171,18 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   opacity: .7;
 }
 /* line 816, ../sass/screen.scss */
-#add-to-our-story .tagline a {
+#remote .tagline a {
   color: #fff;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
 }
 /* line 823, ../sass/screen.scss */
-#add-to-our-story a {
-  color: #a29061;
+#remote a {
+  color: #d78a41;
+  text-decoration: none;
 }
 /* line 827, ../sass/screen.scss */
-#add-to-our-story strong {
+#remote strong {
   font-family: "brandon", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1295,7 +1305,8 @@ a.carousel-control {
 }
 
 /* line 917, ../sass/screen.scss */
-a.carousel-control:focus {
+a.carousel-control:focus,
+a.carousel-control:focus-visible {
   outline: none;
 }
 
