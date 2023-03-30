@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 #languageSelector {
   display: none;
   position: fixed;
-  bottom: 0px;
+  top: 0px;
   background: #6f6e6e;
   z-index: 4;
   text-align: right;
@@ -435,11 +435,6 @@ h1, h2, h3, h4, h5, h6 {
 #languageSelector a,
 #languageSelector span {
   text-decoration: none;
-  filter: alpha(opacity=40);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  -moz-opacity: 0.4;
-  -khtml-opacity: 0.4;
-  opacity: 0.4;
 }
 
 #languageSelector a:hover {
