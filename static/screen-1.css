@@ -423,8 +423,9 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   padding: 2px 5px;
   background: #222;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.9);
   font-size: 2em;
+  color: #7e7e7e;
 }
 
 #languageSelector .active {
