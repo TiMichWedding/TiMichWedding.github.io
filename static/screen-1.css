@@ -937,6 +937,10 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   color: #cf3030;
 }
 
+#festivities a {
+  text-decoration: none;	
+}
+
 /* line 572, ../sass/screen.scss */
 #festivities > h2 {
   position: absolute;
@@ -958,6 +962,16 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   left: 0;
   top: 0;
 }
+
+#festivities .rsvp {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #51fce8;
+  background-color: rgba(81, 252, 232, 0.50);
+  cursor: pointer;
+  color: #1f2ee2;
+}
+
 /* line 585, ../sass/screen.scss */
 #festivities .shim {
   position: absolute;
