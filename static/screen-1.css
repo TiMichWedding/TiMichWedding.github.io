@@ -54,7 +54,7 @@
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.heading-remote {
+.heading-celebrate {
   background-position: 0 -540px;
   height: 78px;
   width: 637px;
@@ -727,7 +727,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 #gallery .textBg {
-  background-image: linear-gradient(to bottom right, #ff5690, #eb00ff);
+  background-image: linear-gradient(to bottom right, #ffffff, #ff0099);
   width: 1300px;
   height: 768px;
 }
@@ -967,7 +967,6 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   left: 0;
   top: 0;
 }
-
 #festivities .rsvp {
   padding: 5px 10px;
   border-radius: 15px;
@@ -976,7 +975,6 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   cursor: pointer;
   color: #1f2ee2;
 }
-
 /* line 585, ../sass/screen.scss */
 #festivities .shim {
   position: absolute;
@@ -1225,15 +1223,16 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 /* line 784, ../sass/screen.scss */
-#remote {
+#celebrate {
   height: 768px;
 }
 
-#remote .heading {
+#celebrate .heading {
   color: #de6278;
+  margin-bottom: 0;
 }
 
-#remote p {
+#celebrate p {
   color: white;
   text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
@@ -1242,22 +1241,36 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 /* line 787, ../sass/screen.scss */
-#remote .heading-love-small {
+#celebrate .heading-love-small {
   display: inline-block;
   text-indent: -9999px;
 }
 /* line 791, ../sass/screen.scss */
-.ie7 #remote .heading-love-small {
+.ie7 #celebrate .heading-love-small {
   display: block;
   margin-left: 45%;
 }
+#celebrate h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px #ffffff;
+}
+#celebrate .rsvp {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #51fce8;
+  background-color: rgba(81, 252, 232, 0.50);
+  cursor: pointer;
+  color: #1f2ee2;
+}
 /* line 797, ../sass/screen.scss */
-#remote .sig {
+#celebrate .sig {
   margin-top: 0;
   margin-bottom: 0;
 }
 /* line 802, ../sass/screen.scss */
-#remote .tagline {
+#celebrate .tagline {
   position: absolute;
   bottom: 10px;
   width: 100%;
@@ -1274,18 +1287,18 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   text-shadow: none;
 }
 /* line 816, ../sass/screen.scss */
-#remote .tagline a {
+#celebrate .tagline a {
   color: #fff;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
 }
 /* line 823, ../sass/screen.scss */
-#remote a {
+#celebrate a {
   color: #ffa479;
   text-decoration: none;
 }
 /* line 827, ../sass/screen.scss */
-#remote strong {
+#celebrate strong {
   font-family: "brandon", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
