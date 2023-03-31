@@ -727,7 +727,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 #gallery .textBg {
-  background-image: linear-gradient(to bottom right, #ffffff, #ff0099);
+  linear-gradient(to bottom right, #e2e2e2, #b00e93)
   width: 1300px;
   height: 768px;
 }
@@ -1259,10 +1259,14 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 #celebrate .rsvp {
   padding: 5px 10px;
   border-radius: 15px;
-  background-color: #51fce8;
-  background-color: rgba(81, 252, 232, 0.50);
+  background-color: #ff918a;
+  background-color: rgba(252, 81, 169, 0.50);
   cursor: pointer;
-  color: #1f2ee2;
+  text-shadow: 2px 2px #ffffff;
+}
+#celebrate a.rsvp {
+  color: #ff03f8;
+  text-shadow: 2px 2px #505050;
 }
 /* line 797, ../sass/screen.scss */
 #celebrate .sig {
