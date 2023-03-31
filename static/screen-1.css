@@ -727,7 +727,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 #gallery .textBg {
-  linear-gradient(to bottom right, #e2e2e2, #b00e93)
+  background: linear-gradient(to bottom right, #e2e2e2, #b00e93);
   width: 1300px;
   height: 768px;
 }
