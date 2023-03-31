@@ -727,7 +727,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 }
 
 #gallery .textBg {
-  background: linear-gradient(to bottom right, #e2e2e2, #b00e93);
+  background: linear-gradient(to bottom right, #fdfdfd, #f7b3b4);
   width: 1300px;
   height: 768px;
 }
@@ -740,9 +740,9 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 #gallery .galleryText {
   text-align: center;
   font-size: 5em;
-  color: white;
+  color: #bc8f78;
   padding: 200px 180px;
-  text-shadow: 6px 5px black;
+  text-shadow: 3px 3px #252525;
 }
 
 /* line 406, ../sass/screen.scss */
