@@ -732,6 +732,11 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   height: 768px;
 }
 
+#gallery .imgBg img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #gallery .galleryText {
   text-align: center;
   font-size: 5em;
