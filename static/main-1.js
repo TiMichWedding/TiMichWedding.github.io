@@ -34,7 +34,7 @@ $(function(){
     });
 	
 	$('#our-story').carousel({
-		interval: 10000
+		interval: 7000
 	});
 	
 	$('#festivities-carousel').carousel({
@@ -53,12 +53,17 @@ $(function(){
 		.on('click', '.icn-history-more', function(e){
 			e.preventDefault();
 			$(e.target).next().animate({bottom: '0px'}, ANIMATION_SPEED);
+			$('#our-story').carousel('pause');
 		})
 		.on('click', '.icn-history-close', function(e){
 			e.preventDefault();
 			$(e.target).parent().animate({bottom: '-770px'}, ANIMATION_SPEED);
+			$('#our-story').carousel('cycle');
+		})
+		.on('click', '.carousel-control', function(e) {
+			$('#our-story').carousel('cycle');
 		});
-
+		
 	$('#festivities')
 		.on('click', function(){
     		lazyLoad('#festivities');
