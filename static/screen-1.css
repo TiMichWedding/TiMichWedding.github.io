@@ -1044,12 +1044,13 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   font-style: italic;
 }
 /* line 619, ../sass/screen.scss */
-#festivities .item p {
+#festivities .item .infoText {
   position: absolute;
   left: 512px;
   top: 170px;
   width: 330px;
   text-align: center;
+  font-weight: normal;
 }
 /* line 626, ../sass/screen.scss */
 #festivities .item p a {
@@ -1069,15 +1070,7 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   display: block;
   margin-left: 45%;
 }
-/* line 646, ../sass/screen.scss */
-#festivities .icn-live-map {
-  display: block;
-  position: absolute;
-  right: 605px;
-  bottom: 50px;
-  text-indent: -9999px;
-  z-index: 3;
-}
+
 
 /* line 656, ../sass/screen.scss */
 #quote {
@@ -1193,6 +1186,10 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 #travel .links .heading-book-by-phone {
   float: right;
   margin: 0 20px 0 0;
+}
+
+#travel .hotelOptions {
+  text-align: left;
 }
 
 /* line 751, ../sass/screen.scss */
