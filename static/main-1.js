@@ -29,8 +29,12 @@ $(function(){
 		bgLazyLoad($(this).find('a').attr('href'));
 	});
 
-    $('#history, #gallery, #festivities-carousel').carousel({
+    $('#history, #gallery').carousel({
 		interval: false
+    });
+	
+	$('#festivities-carousel').carousel({
+		interval: 10000
     });
 
     $('#gallery')
