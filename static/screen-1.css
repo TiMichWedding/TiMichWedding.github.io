@@ -23,19 +23,11 @@
 }
 
 @font-face {
-  font-family: "NotoSansTC";
+  font-family: "BRADHITC";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/NotoSansTC-Regular.woff2") format('woff2'),
-       url("../fonts/NotoSansTC-Regular.woff") format('woff');
-}
-
-@font-face {
-  font-family: "YujiBoku";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../fonts/YujiBoku-Regular.woff2") format('woff2'),
-       url("../fonts/YujiBoku-Regular.woff") format('woff');
+  src: url("../fonts/BRADHITC.woff2") format('woff2'),
+       url("../fonts/BRADHITC.woff") format('woff');
 }
 
 .heading {
@@ -653,6 +645,10 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   /* margin-top: 120px; */
   display: inline-block;
   font-style: italic;
+  font-family: "BRADHITC";
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: .5em 0 .5em 0;
 }
 
 #our-story .info hr {
@@ -663,18 +659,30 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   margin-bottom: 10px;
 }
 
+#our-story .info .chinese h3 {
+  font-weight: normal;
+}
+
 /* line 347, ../sass/screen.scss */
 .ie7 #our-story .info h3 {
   display: block;
   margin-left: 30%;
+  font-family: "BRADHITC";
+  font-weight: bold;
 }
 /* line 353, ../sass/screen.scss */
 #our-story .info p {
   width: 450px;
   margin: 0 auto 10px;
+  font-family: "BRADHITC";
+  font-weight: bold;
+}
+#our-story .info .chinese span.normalText {
+  font-family: serif;
 }
 #our-story .info .chinese p {
-  width: 560px;
+  width: 480px;
+  font-weight: normal;
 }
 /* line 358, ../sass/screen.scss */
 #our-story .info img {
