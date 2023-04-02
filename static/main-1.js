@@ -111,6 +111,7 @@ $(function(){
 	if(jQuery.QueryString["lg"] === "chinese") {
 		$('#languageSelector a[toggle=chinese]').click();
 	}
+	console.log(jQuery.QueryString["enableRSVP"]);
 	if(jQuery.QueryString["enableRSVP"] === "1") {
 		$('.rsvp').attr('href', "https://forms.gle/cnS1CiZhZr1Htx3e9").show();
 	}
