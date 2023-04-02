@@ -108,9 +108,11 @@ $(function(){
 	})(jQuery);
 	 
 	// Usage
-	var param = jQuery.QueryString["lg"];
-	if(param === "chinese") {
+	if(jQuery.QueryString["lg"] === "chinese") {
 		$('#languageSelector a[toggle=chinese]').click();
+	}
+	if(jQuery.QueryString["enableRSVP"] === "1") {
+		$('.rsvp').attr('href', "https://forms.gle/cnS1CiZhZr1Htx3e9").show();
 	}
 
 	$("img[data-original]").lazyload();

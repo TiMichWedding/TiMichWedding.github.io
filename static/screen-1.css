@@ -982,6 +982,9 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   left: 0;
   top: 0;
 }
+.rsvp {
+  display: none;
+}
 #festivities .rsvp {
   padding: 5px 10px;
   border-radius: 15px;
