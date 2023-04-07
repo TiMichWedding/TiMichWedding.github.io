@@ -1055,6 +1055,10 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
   text-align: center;
   font-weight: normal;
 }
+
+#festivities #reception .infoText {
+  top: 190px;
+}
 /* line 626, ../sass/screen.scss */
 #festivities .item p a {
   color: #a29061;
