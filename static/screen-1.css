@@ -717,8 +717,8 @@ background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') n
 #gallery .carousel-indicators {
   top: 22px;
   bottom: 0;
-  left: 517px;
-  width: 350px;
+  left: 220px;
+  width: 100%;
 }
 /* line 385, ../sass/screen.scss */
 #gallery .carousel-indicators li {
